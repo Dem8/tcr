@@ -65,8 +65,7 @@ def main():
           crash += 1
       if crash > crashatstart:
         print "offset: " + hex(i)
-        crashatstart = crash 
-      ba[i] = bite
+        sys.exit(0)
 
   if os.path.exists(temp):
     os.remove(temp)

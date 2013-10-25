@@ -1,2 +1,2 @@
-A test case reductor for muted files
+A test case reduction tool for mutated files
 ===

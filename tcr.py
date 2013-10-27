@@ -10,7 +10,7 @@ def main():
     print
     print "[*] Test Case Redux v1.0 (C) Dem 2013"
     print
-    print "[*] Usage: " + sys.argv[0] + " application original-file muted-file crashreporter_name delay"
+    print "[*] Usage: " + sys.argv[0] + " application original-file mutated-file crashreporter_name delay"
     print
     sys.exit(1)
   

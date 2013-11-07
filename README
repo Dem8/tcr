@@ -1,7 +1,8 @@
+
 A test case reductor for mutated files
 
 * python 2.7 required
-* a web server to serve the files
+* a web server to serve the temp file
 
 Enjoy!
 ===

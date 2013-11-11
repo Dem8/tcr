@@ -24,12 +24,12 @@ def main():
   if os.path.exists(ori):
     fa = open(ori, "rb")
   else:
-    print ori + " not found"
+    print "\n" + ori + " not found\n"
     sys.exit(1)  
   if os.path.exists(mut):
     fb = open(mut, "rb")
   else:
-    print mut + " not found"
+    print "\n" + mut + " not found\n"
     sys.exit(1)
   size = os.path.getsize(ori)
   crashatstart = 0
@@ -44,10 +44,13 @@ def main():
     match = re.search(name, f)
     if match:
       crashatstart += 1
+  print "\nTesting Different Offsets"
+  print "-------------------------\n"  
   for i in range(size):
     bite = ba[i]
     bote = bb[i]
     if bite != bote:
+      print "offset: " + hex(i)
       ba[i] = bb[i]
       if os.path.exists(temp):
         os.remove(temp)
@@ -64,7 +67,7 @@ def main():
         if match:
           crash += 1
       if crash > crashatstart:
-        print "offset: " + hex(i)
+        print "\nmagic offset: " + hex(i) + "\n"
         sys.exit(0)
 
   if os.path.exists(temp):

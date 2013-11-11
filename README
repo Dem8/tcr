@@ -4,7 +4,8 @@ A test case reductor for mutated files
 * python 2.7+ required
 * a web server to serve the temp file
 
-This is a little tool to find the magic offset. It comes ready to iOS, but can be easily fixed to work in any context with minor changes. Usage example: ./tcr.py MobileSafari original.mov mutated.mov mediaserverd 6
+This is a little tool to find the magic offset. It comes ready to iOS, but can be easily fixed to work in any context with minor changes. Usage example: 
+./tcr.py MobileSafari original.mov mutated.mov mediaserverd 6
 
 Enjoy!
 ===

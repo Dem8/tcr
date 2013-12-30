@@ -1,4 +1,4 @@
-A test case reductor for mutated files
+A test case reducer for mutated files
 
 * python 2.7+ required
 * sbutils from Cydia to use TCR on iOS

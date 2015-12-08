@@ -4,7 +4,7 @@ A test case reducer for mutated files
 * sbsutils from Cydia to use TCR on iOS
 * a web server to serve the temp file
 
-This is a little tool to find the magic offset. It comes ready to iOS, but can be easily fixed to work in any context with minor changes.
+This is a little tool to find the magic offset. It comes ready for iOS, but can be easily fixed to work in any context with minor changes.
 
 Usage example:
 
